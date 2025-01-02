@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind Web Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 text-yellow-950">
+  <!-- Header--> 
+  <header class="bg-yellow-600  p-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Pasta Paradise</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#" class="hover:underline">Home</a></li>
+          <li><a href="#" class="hover:underline">Menu</a></li>
+          <li><a href="#" class="hover:underline">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-yellow-500  py-16">
+    <div class="container mx-auto flex flex-col md:flex-row items-center">
+      <!-- Text Section -->
+      <div class="md:w-1/2 text-center md:text-left">
+        <h2 class="text-4xl font-bold mb-4">Welcome to Pasta Paradise</h2>
+        <p class="text-lg mb-8">Delighting your taste buds with authentic and fresh pasta dishes.</p>
+        <button class="bg-yellow-900 text-white px-6 py-2 rounded shadow-md hover:bg-yellow-950">Explore Menu</button>
+      </div>
+  
+      <!-- Image Section -->
+      <div class="md:w-1/2 mt-8 md:mt-0">
+        <img src="C:\Users\Asus\Desktop\AWT Assignment\P2.jpeg" alt="Delicious Pasta" class="rounded-lg shadow-md mx-auto">
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Pasta Features Section -->
+  <section class="py-16">
+    <div class="container mx-auto">
+      <h3 class="text-3xl font-bold text-center mb-12">Our Signature Pastas</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Pasta 1 -->
+        <div class="bg-yellow-500 p-6 rounded-lg shadow-lg text-yellow-950">
+          <img src="C:\Users\Asus\Desktop\AWT Assignment\spa3.jpeg" alt="Spaghetti" class="rounded-lg mb-4">
+          <h4 class="text-xl font-semibold mb-2 text-center ">Classic Spaghetti</h4>
+          <p class=" text-center">Rs. 290/-</p>
+          <p class=" text-center">A timeless favorite served with a rich tomato sauce.</p>
+        </div>
+
+        <!-- Pasta 2 -->
+        <div class="bg-yellow-500 p-6 rounded-lg shadow-lg text-yellow-950">
+          <img src="C:\Users\Asus\Desktop\AWT Assignment\alfredo.jpeg"alt="Penne Alfredo" class="rounded-lg mb-4">
+          <h4 class="text-xl font-semibold mb-2 text-center ">Penne Alfredo</h4>
+          <p class="text-center">Rs. 300/-</p>
+          <p class="text-center">Creamy Alfredo sauce over perfectly cooked penne pasta.</p>
+        </div>
+
+        <!-- Pasta 3 -->
+        <div class="bg-yellow-500 p-6 rounded-lg shadow-lg text-yellow-950">
+          <img src="C:\Users\Asus\Desktop\AWT Assignment\ravioli.jpeg"
+          alt="Ravioli" class="rounded-lg mb-4">
+          <h4 class="text-xl font-semibold mb-2 text-center ">Cheese Ravioli</h4>
+          <p class=" text-center">Rs. 320/-</p>
+          <p class=" text-center">Delicious pockets of cheese topped with marinara sauce.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-400 py-6">
+    <div class="container mx-auto text-center">
+      <p class="text-sm">&copy; 2024 Pasta Paradise. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
